@@ -1,0 +1,123 @@
+/*先reset*/
+
+
+/*第一排名字*/
+
+.line1{
+  background-position: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  position: relative;
+  }
+
+ .name{
+  top: 25%;
+  text-align: center;
+  padding: 20px;
+
+
+ }
+
+/*第二排按鈕*/
+
+.line2{
+  height: 100px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 0px;
+  padding-bottom: 0px;
+  position: relative;
+
+}
+
+span{
+  font-size: 18px;
+}
+
+.btn{
+   width: 150px;
+   display: inline-block;
+   position: relative;
+   border: 1px solid #535953; 
+   padding: 20px;
+   margin: auto 20px;
+   overflow: hidden;
+   border-radius: 30px;
+}
+
+.line{
+  height: 68px;
+  width: 0px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: .5s all;
+}
+
+ .btn{
+  transition: .5s all;
+ }
+
+ .btn:hover{
+  color: white;
+  border-radius: 30px;
+  background: rgba(83,89,83,0.4);
+  border: white;
+ }
+
+
+/*作品介紹*/
+.port{
+  text-align: center;
+}
+
+.fa-codepen{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.fa-medium{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.fa-github-square{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+/*分線*/
+ 
+
+.fa-facebook-f{
+  font-size: 25px;
+   margin: auto 10px;
+}
+
+.fa-medium-m{
+  font-size: 25px;
+  margin: auto 10px;
+}
+
+.fa-linkedin-in{
+ font-size: 25px;
+ margin: auto 10px;
+}
+
+.copyright{
+  display: inline-block;
+ 
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+.copyrightword{
+text-align: right;
+}
